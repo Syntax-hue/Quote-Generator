@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial;
+    font-weight: 500;
+}
+#myBtn {
+    background:rgb(14, 105, 133);
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 3px solid rgb(43, 42, 46);
+    border-radius: 10px;
+    opacity: 0.6;
+    color: white;
+    font-size: large;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+}
+#myBtn:hover {
+    background: white;
+    color: black;
+    opacity: 0.6;
+}
+.container {
+    text-align: center;    
+    flex: 0 0 60%;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: rgba(3, 0, 10, 0.404);
+}
+blockquote {
+    background: rgba(0, 0, 0, 0.411);
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    color: aliceblue;
+}
+
+#author {
+    text-transform: capitalize;
+    color: aliceblue;
+    font-style: italic;
+}
+.quote {
+    color: white;
+}
